@@ -31,13 +31,13 @@ main section {
     width: 100%;
 }
 
-main section h1 {
+main h1 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: hsl(223, 47%, 23%);
 }
 
-main section span {
+main span {
     color: 224, 23%, 55%;
     text-align: center;
 }
@@ -47,13 +47,72 @@ main img {
     border-radius: 1rem 1rem 0 0;
 }
 
-.informações {
+main .informações {
     display: flex;
     align-items: center;
-    justify-content: space space-between;
+    justify-content: space-between;
     width: 100%;
     background: hsl(225, 100%, 98%);
     border-radius: 1rem;
     padding: 1.5rem 1rem;
-    margin: 2rem 0
+    margin: 2rem 0;
+}
+
+main .informações .preço {
+    display: flex;
+    align-items: center;
+}
+
+main .informações .valor {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+main.informações a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    font-size: 90%;
+}
+
+main.informações a:hover {
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+main.iconemusical {
+    width: 3rem;
+    height: 3rem;
+}
+
+main button {
+    cursor: pointer;
+    padding: 1rem 0;
+    width: 100%;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+    border-radius: 0.8rem;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 95%;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s;
+}
+
+main button:hover {
+    background: #766CF1;
+}
+
+#cancelar {
+    text-decoration: none;
+    color: #717FA1;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    transition: color 0.3s;
+}
+
+#cancelar:hover {
+    color: #1F2E55;
 }
